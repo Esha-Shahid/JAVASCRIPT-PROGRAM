@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Practice Task</title>
+</head>
+<body>
+    <h3>For a given array with marks of students -> [85,97,44,37,76,60]. Find the average masks of the enitire class</h3>
+<script>
+    let marks = [85,97,44,37,76,60];
+    let sum = 0;
+    for (let val of marks){
+        sum = sum += val;
+    }
+    let avg = sum / marks.length
+    console.log(`average marks of the class = ${avg}`);
+</script>
+</body>
+</html>
